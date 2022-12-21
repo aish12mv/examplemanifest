@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: debian-test
-        image: {AWS-ACCOUNT}.dkr.ecr.{AWS-REGION}.amazonaws.com/k8s-debian-test:latest 
+        image: gcr.io/hclsw-gcp-xai/kwe-custom-predictor-xai:v5 
         imagePullPolicy: Always
         resources:
           requests:
